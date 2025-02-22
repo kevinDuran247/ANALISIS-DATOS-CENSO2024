@@ -1,0 +1,89 @@
+/* Estilo general para el contenedor de los gráficos */
+.recharts-wrapper {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Modo oscuro */
+body.dark .recharts-wrapper {
+    background-color: #2c2c2c;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+/* Para la tabla de datos */
+.react-table {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+/* Modo oscuro */
+body.dark .react-table {
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.react-table .rdt_Table {
+    border-collapse: collapse;
+}
+
+.react-table th {
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+/* Modo oscuro para las celdas de la tabla */
+body.dark .react-table th {
+    background-color: #444;
+    color: #fff;
+}
+
+.react-table td {
+    color: #333;
+}
+
+/* Modo oscuro para las celdas de la tabla */
+body.dark .react-table td {
+    color: #ccc;
+}
+
+/* Estilos para los botones de cambio de gráfico */
+button[data-graph-type='bar'] {
+    background-color: #28a745;
+    color: #fff;
+}
+
+button[data-graph-type='line'] {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+button[data-graph-type='area'] {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+button[data-graph-type='radar'] {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Estilo en modo oscuro */
+body.dark button[data-graph-type='bar'] {
+    background-color: #1e7e34;
+}
+
+body.dark button[data-graph-type='line'] {
+    background-color: #138496;
+}
+
+body.dark button[data-graph-type='area'] {
+    background-color: #e0a800;
+}
+
+body.dark button[data-graph-type='radar'] {
+    background-color: #c82333;
+}
