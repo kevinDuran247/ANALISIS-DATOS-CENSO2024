@@ -1,0 +1,12 @@
+INSTALAR:
+pip install Flask
+pip install flask-cors
+pip install openpyxl
+pip install pandas
+
+PASO 1
+Levantar server: censo\Server_Python\src\python run.py
+
+PASO 2
+Correr react: censo\ npm install
+npm start
