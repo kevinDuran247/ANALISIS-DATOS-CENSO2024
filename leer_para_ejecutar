@@ -10,3 +10,7 @@ Levantar server: censo\Server_Python\src\python run.py
 PASO 2
 Correr react: censo\ npm install
 npm start
+
+En este proyecto realizamos un análisis exhaustivo sobre los datos recopilados en el censo de El Salvador durante el presente año 2024. A través de diferentes visualizaciones y análisis, ofrecemos una perspectiva detallada sobre la población, la tecnología y los movimientos migratorios del país.
+
+A lo largo de esta plataforma, exploraremos estadísticas clave, insights sobre las Tecnologías de la Información y Comunicación (TICS), y otros aspectos importantes que ayudan a entender el contexto actual de El Salvador. Este análisis tiene como objetivo ofrecer una visión clara para la toma de decisiones en políticas públicas y otros sectores.
